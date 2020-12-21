@@ -84,7 +84,20 @@ where:
 	settime [x] (Set the round length in minutes)
 	setrounds [x] (Set the number of rounds per match)
 
-	Example:mutate settime 20(Set the round length of the game to 20 minutes)
+	Example:mutate settime 20 (Set the round length of the game to 20 minutes)
 	mutate setrounds 3 (Set the rounds per match to 3)
 	
 **Note:The “settime [x]” command takes effect in the next round.**
+
+## Commands to force weapons
+
+	forceall [x] (command to force all players to have the same weapon)
+	giveme[x] (change the weapon of the player who used the command)
+
+Where [x] is the index number of the weapon in the list of weapons
+
+	Example1:mutate forceall12 (force all players to use the M9 pistol that has the index 12 on the weapon list)
+	Example2:mutate giveme12 (give theplayerswhoused the command the M9 pistol)
+
+	listw1 (command that shows the list1 of available weapons)
+	listw2 (command that shows the list 2 of available weapons)
