@@ -57,11 +57,17 @@ You can also use Filters in these commands to see lists of maps classified by cl
 	listpvp [CLASS],[TOD],[WEATHER],[SF],[OTHERS] [x]
 
 where:
+
 	[CLASS] = AIR,LAND,SEA,SPACE
+
 	[TOD] = DAWN,DAY,DUSK,NIGHT
+
 	[WEATHER] = CLOUDY,FOG,HAZY,MIST,RAIN,SNOW,SUNNY,CLEAR
+
 	[SF] = SF,NSF
+
 	[OTHERS] = BETA,NBETA,MOD,NMOD,ES2,NES2
+
 	[x] = x is a number that indicates the list number you want to see
 
 	Example:mutate listcoop land,snow2 (will show the list number 2of Coopmaps with snow and on land)
