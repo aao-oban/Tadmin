@@ -5,10 +5,10 @@ Tadmin was originally designed as a tool that allows any player to change the se
 Currently, the Tadmin allows the following functions to be carried out without the need to be an Admin or Playeradmin:
 
 - change server map
-- enable or disable cheats in the server
+- enable or disable cheats
 - set the duration of the game
 - set the number of rounds per game
-- enable or disable respawn in the server
+- enable or disable respawn
 - swap teams
 - change class without using cheats
 - have infinite ammo without using cheats
@@ -16,7 +16,24 @@ Currently, the Tadmin allows the following functions to be carried out without t
 
 Tadmin can also help players to find the correct map that is running on the server and thus avoid the DCDS message. This works in conjunction with the DODGE download system.
 
-With tadmin, administrators do not lose control of their server.
+With Tadmin you can set a default map to which your server will automatically switch every time your server empties of players (this is configurable, you can activate or deactivate it)
+
+## how does it work?
+
+Any player that connects to a server that has the TADMIN running has the possibility to become TADMIN. To do so, just open the command console(press ~key) and type the command **"mutate beadmin"** If no player is self-assigned the role of TADMIN all players can administer the server with TADMIN commands which is not recommended. Once someone is self-assigned the role of TADMIN with the command **"mutate beadmin"** only this player can use the TADMIN commands to manage the server. If the player who had the role of TADMIN is disconnected from the game, the mutator waits 2 minutes for the player to reconnect, if the player does not reconnect during that time the mutator will automatically remove the role of TADMIN to that player. This way any player that is in the server can self-assign the role of TADMIN with the command "mutate beadmin". 
+
+An Admin or PlayerAdmin can use all the TADMIN commands without needing to have the TADMIN role. they can even use the commands if there is a player who already has the role of tadmin.
+
+## How to install Tadmin on your server?
+
+- **STEP 1** Get a copy of the Tadmin v1.6 [Here](https://pages.github.com/)
+- **STEP 2** Copy the files tadmin.u and tadmin.ini to the system folder of your server
+- **STEP 3** Stop your server and start it adding the parameter ?Mutator=Tadmin.Tadmin as shown in the following example
+
+EXAMPLE:
+
+	Server.exe LAN Bridge.aao?Mutator=Tadmin.Tadmin log=server.log ini=server.ini
+
 
 # TADMIN COMMANDS FOR PLAYERS
 
@@ -126,37 +143,37 @@ Where [x] could be 1 or 0
 
 ## Commands for Admin and Players Admins
 
-	tadminon (command to enable the TADMINcommands)
-	tadminoff (command to disable the TADMINcommands)
+	tadminon (command that prevents the player with the Tadmin role from using the commands)
+	tadminoff (command that enables the player with the Tadmin role to use the commands)
 
 
-Note:These commands cannotbe used by the TADMIN only can be used by an Admin or PlayerAdmin. These commands are used so that an Admin or PlayerAdmin disables the player who has the role of TADMIN if he is abusingof his role. Or if the administrators want to take control of the match.
+Note:These commands cannot be used by the TADMIN only can be used by an Admin or PlayerAdmin. These commands are used so that an Admin or PlayerAdmin prevent the player who has the Tadmin role from using the Tadmin commands temporarily if he is abusing of his role. Or if the administrators want to take control of the server.
 
-## commands to configure tadmin by and admin or PlayerAdmin
+## Commands to configure the Tadmin (only for admins or PlayerAdmins)
 
-	setini cheats [x] (enable or disable the cheats cmd)   
-	setini forceall [x] (enable or disable the forceall cmd)
-	setini changemap [x] (enable or disable the change map cmds)
-	setini settime [x] (enable or disable the settime cmd)
-	setini setrounds [x] (enable or disable the setrounds cmd)
-	setini respawn [x] (enable or disable the respawn cmd)
-	setini endgame [x] (enable or disable the endgame cmd)
-	setini changeclass [x] (enable or disable the changeclass cmd)
-	setini swapteams [x] (enable or disable the swapteams cmd)
-	setini paramsammo [x] (enable or disable the paramsammo cmd)
-	setini medic [x] (enable or disable the medic cmd)
-	setini s_changeclass [x] (server start with changeclass cmd enabled)
-	setini s_paramsammo [x] (server start with paramsammo cmd enabled)
-	setini s_cheats [x] (server start with cheats cmd enabled)
-	setini default_map [x] (enables or disables the server to switch to a default map when the server is empty)
+	setini cheats [x] (enable or disable the cheats cmd in Tadmin)   
+	setini forceall [x] (enable or disable the forceall cmd in Tadmin)
+	setini changemap [x] (enable or disable the change map cmds in Tadmin)
+	setini settime [x] (enable or disable the settime cmd in Tadmin)
+	setini setrounds [x] (enable or disable the setrounds cmd in Tadmin)
+	setini respawn [x] (enable or disable the respawn cmd in Tadmin)
+	setini endgame [x] (enable or disable the endgame cmd in Tadmin)
+	setini changeclass [x] (enable or disable the changeclass cmd in Tadmin)
+	setini swapteams [x] (enable or disable the swapteams cmd in Tadmin)
+	setini paramsammo [x] (enable or disable the paramsammo cmd in Tadmin)
+	setini medic [x] (enable or disable the medic cmd in Tadmin)
+	setini s_changeclass [x] (server start with changeclass cmd enabled in Tadmin)
+	setini s_paramsammo [x] (server start with paramsammo cmd enabled in Tadmin)
+	setini s_cheats [x] (server start with cheats cmd enabled in Tadmin)
+	setini default_map [x] (enables or disables the server to switch to a default map when the server is empty in Tadmin)
 
-	Where [x] could be 1 or 0
+	Where [x] could be 1 or 0, 1 is to enable 0 to disable
 
-	setini setmap [x]  (set the default map of the server)
+	setini setmap [x]  (set the default map of the server in Tadmin)
 	
 	where [x] is the name of the map 
 	
-	setini getmap (shows which is the default map established)
+	setini getmap (shows which is the default map established in Tadmin)
 
 
 
