@@ -134,26 +134,29 @@ Note:These commands cannotbe used by the TADMIN only can be used by an Admin or 
 
 ## commands to configure tadmin by and admin or PlayerAdmin
 
-	setini cheats [x]   
-	setini forceall [x]
-	setini changemap [x]
-	setini settime [x]
-	setini setrounds [x]
-	setini respawn [x]
-	setini endgame [x]
-	setini changeclass [x]
-	setini swapteams [x]
-	setini paramsammo [x]
-	setini medic [x]
-	setini s_changeclass [x]
-	setini s_paramsammo [x]
-	setini s_cheats [x]
-	setini default_map [x]
+	setini cheats [x] (enable or disable the cheats cmd)   
+	setini forceall [x] (enable or disable the forceall cmd)
+	setini changemap [x] (enable or disable the change map cmds)
+	setini settime [x] (enable or disable the settime cmd)
+	setini setrounds [x] (enable or disable the setrounds cmd)
+	setini respawn [x] (enable or disable the respawn cmd)
+	setini endgame [x] (enable or disable the endgame cmd)
+	setini changeclass [x] (enable or disable the changeclass cmd)
+	setini swapteams [x] (enable or disable the swapteams cmd)
+	setini paramsammo [x] (enable or disable the paramsammo cmd)
+	setini medic [x] (enable or disable the medic cmd)
+	setini s_changeclass [x] (server start with changeclass cmd enabled)
+	setini s_paramsammo [x] (server start with paramsammo cmd enabled)
+	setini s_cheats [x] (server start with cheats cmd enabled)
+	setini default_map [x] (enables or disables the server to switch to a default map when the server is empty)
 
 	Where [x] could be 1 or 0
 
-	setini setmap mapname
-	setini getmap
+	setini setmap [x]  (set the default map of the server)
+	
+	where [x] is the name of the map 
+	
+	setini getmap (shows which is the default map established)
 
 
 
