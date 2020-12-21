@@ -36,6 +36,8 @@ EXAMPLE:
 
 **Note:** tadmin_coop_list.lst and tadmin_pvp_list.lst are files that contain the list of pvp and coop maps. if you want to add maps to this lists you can edit them with a text editor taking care to respect the format.
 
+Any questions you can write to my email oban.bere@gmail.com
+
 # TADMIN COMMANDS FOR PLAYERS
 
 ## Help command
