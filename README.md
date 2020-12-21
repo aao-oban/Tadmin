@@ -42,7 +42,7 @@ Where **[x]** can be the name of the map or the index number of the list map
 
 	Example: mutate switchcoop 13 (change to the map CARTEL which is number 13 on the list)
 	
-##Command to see the list of maps
+## Command to see the list of maps
 
 	mutate listcoop[x] (shows the list of availableCOOPmaps)
 	mutate listpvp[x] (shows the list of available PVP maps)
@@ -71,3 +71,20 @@ where:
 	[x] = x is a number that indicates the list number you want to see
 
 	Example:mutate listcoop land,snow2 (will show the list number 2of Coopmaps with snow and on land)
+	
+## Commands to enable and disable cheats
+
+	mutate cheatson (command to enable the cheats)
+	mutate cheatsoff (command to disable the cheats)
+	
+**Note:This commands takes effect immediately after executing it.**
+
+## Commands to set the time and number of rounds
+
+	settime [x] (Set the round length in minutes)
+	setrounds [x] (Set the number of rounds per match)
+
+	Example:mutate settime 20(Set the round length of the game to 20 minutes)
+	mutate setrounds 3 (Set the rounds per match to 3)
+	
+**Note:The “settime [x]” command takes effect in the next round.**
