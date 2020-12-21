@@ -24,6 +24,8 @@ Any player that connects to a server that has the TADMIN running has the possibi
 
 An Admin or PlayerAdmin can use all the TADMIN commands without needing to have the TADMIN role. they can even use the commands if there is a player who already has the role of tadmin.
 
+[click here to see a video tutorial on how to use tadmin](https://youtu.be/1NilWoCvryI)
+
 ## How to install Tadmin on your server?
 
 - **STEP 1** Get a copy of the Tadmin v1.6 [Here](https://pages.github.com/)
