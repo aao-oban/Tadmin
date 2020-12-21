@@ -30,5 +30,14 @@ displays the list of all available commands that a player can use. To use this c
 
 Are commands that are used to self-assign the role of TADMIN or stop being TADMIN
 
-	mutate beadmin(command to auto-assign the role of TADMIN)
-	mutate quitadmin(command to leave the TADMIN role)
+	mutate beadmin (command to auto-assign the role of TADMIN)
+	mutate quitadmin (command to leave the TADMIN role)
+
+##Commands to change the map
+
+	mutate switchcoop [x](command to switch to a cooperative map)
+	mutate switchpvp [x](command to switch to a player vs player map)
+
+Where **[x]** can be the name of the map or the index number of the list map
+
+Example:mutate switchcoop 13(change to the map CARTEL which is number 13 on the list)
