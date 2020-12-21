@@ -93,11 +93,18 @@ where:
 
 	forceall [x] (command to force all players to have the same weapon)
 	giveme[x] (change the weapon of the player who used the command)
+	changeclass [x] (change the weapon of the player who used the command)
 
 Where [x] is the index number of the weapon in the list of weapons
 
-	Example1:mutate forceall12 (force all players to use the M9 pistol that has the index 12 on the weapon list)
-	Example2:mutate giveme12 (give theplayerswhoused the command the M9 pistol)
+	Example1: mutate forceall 12 (force all players to use the M9 pistol that has the index 12 on the weapon list)
+	Example2: mutate giveme 12 (give the players who used the command the M9 pistol)
+	Example3: mutate changeclass 12 (give the players who used the command the M9 pistol)
 
 	listw1 (command that shows the list1 of available weapons)
 	listw2 (command that shows the list 2 of available weapons)
+	
+**Important note:** the **giveme** command and the **changeclass** command may or may not be enabled, the Tadmin must use **swgiveme** or **swchangeclass** commands respectively to enable or disable them.
+
+
+
