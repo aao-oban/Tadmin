@@ -27,13 +27,14 @@ An Admin or PlayerAdmin can use all the TADMIN commands without needing to have 
 ## How to install Tadmin on your server?
 
 - **STEP 1** Get a copy of the Tadmin v1.6 [Here](https://pages.github.com/)
-- **STEP 2** Copy the files tadmin.u and tadmin.ini to the system folder of your server
+- **STEP 2** Copy the files tadmin.u, tadmin.ini, tadmin_coop_list.lst, tadmin_pvp_list.lst to the system folder of your server
 - **STEP 3** Stop your server and start it adding the parameter ?Mutator=Tadmin.Tadmin as shown in the following example
 
 EXAMPLE:
 
 	Server.exe LAN Bridge.aao?Mutator=Tadmin.Tadmin log=server.log ini=server.ini
 
+**Note:** tadmin_coop_list.lst and tadmin_pvp_list.lst are files that contain the list of pvp and coop maps. if you want to add maps to this lists you can edit them with a text editor taking care to respect the format.
 
 # TADMIN COMMANDS FOR PLAYERS
 
