@@ -35,8 +35,8 @@ Are commands that are used to self-assign the role of TADMIN or stop being TADMI
 
 ##Commands to change the map
 
-	mutate switchcoop [x](command to switch to a cooperative map)
-	mutate switchpvp [x](command to switch to a player vs player map)
+	mutate switchcoop [x] (command to switch to a cooperative map)
+	mutate switchpvp [x]  (command to switch to a player vs player map)
 
 Where **[x]** can be the name of the map or the index number of the list map
 
