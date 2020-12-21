@@ -116,13 +116,44 @@ Where [x] could be 1 or 0
 
 
 
-Commands to enable and disable respawn
+## Commands to enable and disable respawn
 
 	respawnon (Command to enable respawn )
 	respawnoff (Command to disable respawn)
 	endgame (Command to terminate the match)
 
 **Note:** the Tadmin must use the **endgame** command to allow players who joined late to a game to join the game. This is necessary when the respawn is activated in the game. The TADMIN mod will automatically send a message every 20 seconds to the player who has the role of TADMIN to use the command "endgame" when it detects that there are players as spectators waiting to join the game. In coop games it is necessary that there are at least 2 players connected for the respawn to work.Admin or PlayerAdmin. These commands are used so that an Admin or PlayerAdmin disables the player who has the role of TADMIN if he is abusingofhis role. Orif the administrators want to take control of the match.
+
+## Commands for Admin and Players Admins
+
+	tadminon (command to enable the TADMINcommands)
+	tadminoff (command to disable the TADMINcommands)
+
+
+Note:These commands cannotbe used by the TADMIN only can be used by an Admin or PlayerAdmin. These commands are used so that an Admin or PlayerAdmin disables the player who has the role of TADMIN if he is abusingof his role. Or if the administrators want to take control of the match.
+
+## commands to configure tadmin by and admin or PlayerAdmin
+
+	setini cheats [x]   
+	setini forceall [x]
+	setini changemap [x]
+	setini settime [x]
+	setini setrounds [x]
+	setini respawn [x]
+	setini endgame [x]
+	setini changeclass [x]
+	setini swapteams [x]
+	setini paramsammo [x]
+	setini medic [x]
+	setini s_changeclass [x]
+	setini s_paramsammo [x]
+	setini s_cheats [x]
+	setini default_map [x]
+
+	Where [x] could be 1 or 0
+
+	setini setmap mapname
+	setini getmap
 
 
 
