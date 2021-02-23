@@ -1,6 +1,6 @@
 # Tadmin Mutator for AAO 2.8.5 servers
 
-##Tadmin = Temporary administrator
+## Tadmin = Temporary administrator
 
 Tadmin was originally designed as a tool that allows any player to change the server map without needing to be an admin or PlayerAdmin. Now the Tadmin has become more than a map changer.
 
