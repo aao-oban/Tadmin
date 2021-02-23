@@ -57,11 +57,32 @@ The file you will download is a compressed file that contains 3 files:
 
 To know how to use this tool watch the video tutorial [Here](https://youtu.be/K4GwD25ztRQ)
 
-I an error occurs during the list creation process, watch the video to continue the process [Here](https://youtu.be/_iCUhSC0Dcg)
+If an error occurs during the list creation process, watch the video to continue the process [Here](https://youtu.be/_iCUhSC0Dcg)
 
 **IMPORTANT NOTE: Before using this tool, you must have in the "Maps" folder of the game all the maps that your server has. so you can generate lists that reflect the maps of your server.**
 
 ###### Manual method
+
+The manual method consists of manually creating the tadmin_coop_list.lst and tadmin_pvp_list.lst files.
+
+for this you must create two text files and rename them tadmin_coop_list.lst and tadmin_pvp_list.lst (it is important that you change the extension to .lst)
+
+then open each of the files with a text editor and begin to add the names of the maps one for each line and always ending the line with ":" as shown in the following example
+
+armoury_infiltration.aao:
+base_assault.aao:
+bridge_assault_OverBurned.aao:
+bunker_se.aao:
+capitol_building_maccam912.aao:
+crystal_peak.aao:
+crystal_peak_b92.aao:
+deathvalley.aao:
+
+once you finish adding the maps save your files and that's it
+
+Remember the **COOP** maps must go in the **tadmin_coop_list.lst** file and the **PVP** maps must go in the **tadmin_pvp_list.lst** file.
+
+Once you have the files ready, upload them to the system folder of your server.
 
 # TADMIN COMMANDS FOR PLAYERS
 
