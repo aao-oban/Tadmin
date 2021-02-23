@@ -98,7 +98,7 @@ Are commands that are used to self-assign the role of TADMIN or stop being TADMI
 	mutate beadmin (command to auto-assign the role of TADMIN)
 	mutate quitadmin (command to leave the TADMIN role)
 
-##Commands to change the map
+## Commands to change the map
 
 	mutate switchcoop [x] (command to switch to a cooperative map)
 	mutate switchpvp [x]  (command to switch to a player vs player map)
@@ -109,12 +109,12 @@ Where **[x]** can be the name of the map or the index number of the list map
 	
 ## Command to see the list of maps
 
-	mutate listcoop[x] (shows the list of availableCOOPmaps)
-	mutate listpvp[x] (shows the list of available PVP maps)
+	mutate listcoop [x] (shows the list of availableCOOPmaps)
+	mutate listpvp [x] (shows the list of available PVP maps)
 
 Where **[x]** is a number that indicates the list that you want to see.
 
-	Example:mutate listcoop10 (will show the list number 10 of cooperative maps)
+	Example:mutate listcoop 10 (will show the list number 10 of cooperative maps)
 
 You can also use Filters in these commands to see lists of maps classified by climate, class, etc.
 
@@ -135,7 +135,7 @@ where:
 
 	[x] = x is a number that indicates the list number you want to see
 
-	Example:mutate listcoop land,snow2 (will show the list number 2of Coopmaps with snow and on land)
+	Example:mutate listcoop land,snow2 (will show the list number 2of Coop maps with snow and on land)
 	
 ## Commands to enable and disable cheats
 
