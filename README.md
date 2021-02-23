@@ -50,7 +50,7 @@ The file you will download is a compressed file that contains 3 files:
 - RunTool.bat
 - ToMapFolder.bat
 
-To know how to use this tool watch the video tutorial [Here](https://pages.github.com/)
+To know how to use this tool watch the video tutorial [Here](https://youtu.be/K4GwD25ztRQ)
 
 **IMPORTANT NOTE: Before using this tool, you must have in the "Maps" folder of the game all the maps that your server has. so you can generate lists that reflect the maps of your server.**
 
