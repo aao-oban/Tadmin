@@ -20,6 +20,8 @@ Tadmin can also help players to find the correct map that is running on the serv
 
 With Tadmin you can set a default map to which your server will automatically switch every time your server empties of players (this is configurable, you can activate or deactivate it)
 
+**In fact all the features of Tadmin are configurable you can activate and deactivate the ones you like from its ini configuration file**
+
 ## How does it work?
 
 Any player that connects to a server that has the TADMIN running has the possibility to become TADMIN. To do so, just open the command console(press ~key) and type the command **"mutate beadmin"** If no player is self-assigned the role of TADMIN all players can administer the server with TADMIN commands which is not recommended. Once someone is self-assigned the role of TADMIN with the command **"mutate beadmin"** only this player can use the TADMIN commands to manage the server. If the player who had the role of TADMIN is disconnected from the game, the mutator waits 2 minutes for the player to reconnect, if the player does not reconnect during that time the mutator will automatically remove the role of TADMIN to that player. This way any player that is in the server can self-assign the role of TADMIN with the command "mutate beadmin". 
