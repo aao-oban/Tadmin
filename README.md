@@ -29,18 +29,23 @@ An Admin or PlayerAdmin can use all the TADMIN commands without needing to have 
 ## How to install Tadmin on your server?
 
 - **STEP 1** Get a copy of the Tadmin v1.7 [Here](https://pages.github.com/)
-- **STEP 2** Copy the files tadmin.u, tadmin.ini, tadmin_coop_list.lst, tadmin_pvp_list.lst to the system folder of your server
-- **STEP 3** Stop your server and start it adding the parameter ?Mutator=Tadmin.Tadmin as shown in the following example
+- **STEP 2** unzip the file to extract its content
+- **STEP 3** Copy the files Tadmin.u, Tadmin.ini to the system folder of your server
+- **STEP 4** Stop your server and start it adding the parameter ?Mutator=Tadmin.Tadmin as shown in the following example
 
 EXAMPLE:
 
 	Server.exe LAN Bridge.aao?Mutator=Tadmin.Tadmin log=server.log ini=server.ini
 
-**Note: tadmin_coop_list.lst and tadmin_pvp_list.lst are files that contain the list of pvp and coop maps. if you want to add maps to this lists you can edit them with a text editor taking care to respect the format.**
+**Note: If you want the Tadmin map change function to be fully functional you must generate the files "tadmin_coop_list.lst" and "tadmin_pvp_list.lst" and copy those files to the System folder of your server. Below you can see the methods to create the lists for the Tadmin**
 
 Any questions you can write to my email oban.bere@gmail.com
 
 ## How to generate the PVP and COOP maps lists for Tadmin mutator
+
+There are two methods for creating the lists. the automatic method using a tool and the manual method.
+
+###### Automatic method
 
 For this we are going to use a list generator tool that you can download [Here](https://github.com/aao-oban/Tadmin/raw/main/maplistg.7z)
 
@@ -55,6 +60,8 @@ To know how to use this tool watch the video tutorial [Here](https://youtu.be/K4
 I an error occurs during the list creation process, watch the video to continue the process [Here](https://youtu.be/_iCUhSC0Dcg)
 
 **IMPORTANT NOTE: Before using this tool, you must have in the "Maps" folder of the game all the maps that your server has. so you can generate lists that reflect the maps of your server.**
+
+###### Manual method
 
 # TADMIN COMMANDS FOR PLAYERS
 
