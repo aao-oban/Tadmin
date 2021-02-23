@@ -76,13 +76,6 @@ for this you must create two text files and rename them tadmin_coop_list.lst and
 then open each of the files with a text editor and begin to add the names of the maps one for each line and always ending the line with ":" as shown in the following example
 
 > armoury_infiltration.aao:
-> base_assault.aao:
-> bridge_assault_OverBurned.aao:
-> bunker_se.aao:
-> capitol_building_maccam912.aao:
-> crystal_peak.aao:
-> crystal_peak_b92.aao:
-> deathvalley.aao:
 
 once you finish adding the maps save your files and that's it
 
