@@ -189,6 +189,15 @@ Where [x] could be 1 or 0
 
 **Note:** the Tadmin must use the **endgame** command to allow players who joined late to a game to join the game. This is necessary when the respawn is activated in the game. The TADMIN mod will automatically send a message every 20 seconds to the player who has the role of TADMIN to use the command "endgame" when it detects that there are players as spectators waiting to join the game. In coop games it is necessary that there are at least 2 players connected for the respawn to work.Admin or PlayerAdmin. These commands are used so that an Admin or PlayerAdmin disables the player who has the role of TADMIN if he is abusingofhis role. Orif the administrators want to take control of the match.
 
+## Command to get random ammo when pick up an enemy weapon
+
+prammo [x] (Enable/Disable pickup enemy random ammo)
+
+Where [x] could be 1 or 0
+
+This command causes that when you pick up an enemy weapon a random number of bullets is assigned to the weapon and it can also give you 1 to 3 clips of ammo and occasionally also give you grenades
+
+
 ## Commands for Admin and Players Admins
 
 	tadminon (command that prevents the player with the Tadmin role from using the commands)
@@ -214,6 +223,9 @@ Note:These commands cannot be used by the TADMIN only can be used by an Admin or
 	setini s_paramsammo [x] (server start with paramsammo cmd enabled in Tadmin)
 	setini s_cheats [x] (server start with cheats cmd enabled in Tadmin)
 	setini default_map [x] (enables or disables the server to switch to a default map when the server is empty in Tadmin)
+	setini prammo [x] (enable or disable the prammo cmd in Tadmin)
+	setini warnidle [x] (enable or disable idle warnings in Tadmin)
+	
 
 	Where [x] could be 1 or 0, 1 is to enable 0 to disable
 
