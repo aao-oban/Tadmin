@@ -42,7 +42,7 @@ Any questions you can write to my email oban.bere@gmail.com
 
 ## How to generate the PVP and COOP maps lists for Tadmin mutator
 
-for this we are going to use a list generator tool that you can download [Here](https://pages.github.com/)
+for this we are going to use a list generator tool that you can download [Here](https://github.com/aao-oban/Tadmin/raw/main/maplistg.7z)
 
 The file you will download is a compressed file that contains 3 files:
 
