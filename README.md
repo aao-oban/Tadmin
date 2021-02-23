@@ -42,7 +42,7 @@ Any questions you can write to my email oban.bere@gmail.com
 
 ## How to generate the PVP and COOP maps lists for Tadmin mutator
 
-for this we are going to use a list generator tool that you can download [Here](https://github.com/aao-oban/Tadmin/raw/main/maplistg.7z)
+For this we are going to use a list generator tool that you can download [Here](https://github.com/aao-oban/Tadmin/raw/main/maplistg.7z)
 
 The file you will download is a compressed file that contains 3 files:
 
@@ -51,6 +51,8 @@ The file you will download is a compressed file that contains 3 files:
 - ToMapFolder.bat
 
 To know how to use this tool watch the video tutorial [Here](https://youtu.be/K4GwD25ztRQ)
+
+I an error occurs during the list creation process, watch the video to continue the process [Here](https://youtu.be/_iCUhSC0Dcg)
 
 **IMPORTANT NOTE: Before using this tool, you must have in the "Maps" folder of the game all the maps that your server has. so you can generate lists that reflect the maps of your server.**
 
