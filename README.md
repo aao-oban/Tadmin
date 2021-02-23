@@ -13,6 +13,8 @@ Currently, the Tadmin allows the following functions to be carried out without t
 - change class without using cheats
 - have infinite ammo without using cheats
 - get medical packages without using cheats
+- warn inactive players to move
+- randomly assign ammo when picking up enemy weapons
 
 Tadmin can also help players to find the correct map that is running on the server and thus avoid the DCDS message. This works in conjunction with the DODGE download system.
 
