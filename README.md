@@ -53,7 +53,7 @@ There are two methods for creating the lists. the automatic method using a tool 
 
 ###### Automatic method
 
-For this we are going to use a list generator tool that you can download [Here](https://github.com/aao-oban/Tadmin/raw/main/maplistg.7z)
+For this we are going to use a list generator tool that you can download [Here](https://bit.ly/3pQq1BY)
 
 The file you will download is a compressed file that contains 3 files:
 
