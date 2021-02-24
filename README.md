@@ -109,7 +109,7 @@ Where **[x]** can be the name of the map or the index number of the list map
 	
 ## Command to see the list of maps
 
-	mutate listcoop [x] (shows the list of availableCOOPmaps)
+	mutate listcoop [x] (shows the list of available COOP maps)
 	mutate listpvp [x] (shows the list of available PVP maps)
 
 Where **[x]** is a number that indicates the list that you want to see.
