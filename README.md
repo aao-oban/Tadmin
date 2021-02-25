@@ -198,7 +198,7 @@ Where [x] could be 1 or 0
 This command causes that when you pick up an enemy weapon a random number of bullets is assigned to the weapon and it can also give you 1 to 3 clips of ammo and occasionally also give you grenades
 
 
-## Commands for Admin and Players Admins
+# Commands for Admin and Players Admins
 
 	tadminon (command that prevents the player with the Tadmin role from using the commands)
 	tadminoff (command that enables the player with the Tadmin role to use the commands)
