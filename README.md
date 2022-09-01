@@ -7,6 +7,7 @@ Tadmin was originally designed as a tool that allows any player to change the se
 Currently, the Tadmin allows the following functions to be carried out without the need to be an Admin or Playeradmin:
 
 - change server map
+- Select the AI DIFFICULTY in coop maps
 - enable or disable cheats
 - set the duration of the game
 - set the number of rounds per game
@@ -16,7 +17,7 @@ Currently, the Tadmin allows the following functions to be carried out without t
 - have infinite ammo without using cheats
 - get medical packages without using cheats
 - warn inactive players to move
-- randomly assign ammo when picking up enemy weapons
+- randomly assign ammo, grenades and medpacks when picking up enemy weapons
 
 Tadmin can also help players to find the correct map that is running on the server and thus avoid the DCDS message. This works in conjunction with the DODGE download system.
 
@@ -189,13 +190,39 @@ Where [x] could be 1 or 0
 
 **Note:** the Tadmin must use the **endgame** command to allow players who joined late to a game to join the game. This is necessary when the respawn is activated in the game. The TADMIN mod will automatically send a message every 20 seconds to the player who has the role of TADMIN to use the command "endgame" when it detects that there are players as spectators waiting to join the game. In coop games it is necessary that there are at least 2 players connected for the respawn to work.Admin or PlayerAdmin. These commands are used so that an Admin or PlayerAdmin disables the player who has the role of TADMIN if he is abusingofhis role. Orif the administrators want to take control of the match.
 
-## Command to get random ammo when pick up an enemy weapon
+## Command to get random ammo,grenades and medpacks when pick up an enemy weapon
 
 prammo [x] (Enable/Disable pickup enemy random ammo)
 
 Where [x] could be 1 or 0
 
-This command causes that when you pick up an enemy weapon a random number of bullets is assigned to the weapon and it can also give you 1 to 3 clips of ammo and occasionally also give you grenades
+This command allows players when picking up an enemy weapon to obtain more ammo, as well as a random number of various types of grenades and medpacks.
+
+The PRAMMO command comes from the words Pick up Random Ammunition. This command has been designed to stop using the cheat to get unlimited ammo in the game and also to give some more realism to the game since at the moment of picking up the enemy weapon it is as if you were checking the enemy's body for ammunition, grenades and medpacks.
+
+
+
+## Command to choose the level of "AI Difficulty" in coop maps
+
+aiskill [x] (Set the level of AI DIFFICULTY)
+
+Where [x] could be 0,1,2,3,4,off
+
+x=0 to set the level to Easiest
+x=1 to set the level to Easier
+x=2 to set the level to Default
+x=3 to set the level to Harder
+x=4 to set the level to Max
+x=off to disable the command
+
+The behavior of the bots in the game is controlled by the "AI Difficulty". There are 5 levels for the "AI Difficulty" (level 0 Easiest, level 1 Easier, level 2 Default, level 3 Harder, level 4 Max)
+
+Every time a match is started, the game automatically chooses the "AI Difficulty" level based on various parameters such as number of players, skill of the players, duration of a previous match, etc.
+
+The common thing is to start a round with level 2 (default) but if we don't complete the mission in the round, when the next round starts the game automatically will lower the level of "AI difficulty" to level 0 or Level 1. But if we complete the mission too easily, then the game will increase the "AI Difficulty" level to level 3 or 4 in the next round
+
+As explained above, "AI Difficulty" is something that the game controls automatically, the aiskill command is for players to set the level of "AI difficulty".
+
 
 
 # Commands for Admin and Players Admins
