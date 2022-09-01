@@ -35,7 +35,7 @@ An Admin or PlayerAdmin can use all the TADMIN commands without needing to have 
 
 ## How to install Tadmin on your server?
 
-- **STEP 1** Get a copy of the Tadmin v1.8 [Here](https://bit.ly/tadminv1-8)
+- **STEP 1** Get a copy of the Tadmin v1.9 [Here](https://bit.ly/tadminv1-8)
 - **STEP 2** unzip the file to extract its content
 - **STEP 3** Copy the files Tadmin.u, Tadmin.ini to the system folder of your server
 - **STEP 4** Stop your server and start it adding the parameter ?Mutator=Tadmin.Tadmin as shown in the following example
