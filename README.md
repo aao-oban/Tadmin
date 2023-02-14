@@ -35,7 +35,7 @@ An Admin or PlayerAdmin can use all the TADMIN commands without needing to have 
 
 ## How to install Tadmin on your server?
 
-- **STEP 1** Get a copy of the Tadmin v1.9.1 [Here](https://bit.ly/Tadminv1-9-1)
+- **STEP 1** Get a copy of the Tadmin v1.9.1 [Here](https://github.com/aao-oban/Tadmin/raw/main/Tadmin%20v2.zip)
 - **STEP 2** unzip the file to extract its content
 - **STEP 3** Copy the files Tadmin.u, Tadmin.ini to the system folder of your server
 - **STEP 4** Stop your server and start it adding the parameter ?Mutator=Tadmin.Tadmin as shown in the following example
@@ -202,6 +202,16 @@ The PRAMMO command comes from the words Pick up Random Ammunition. This command 
 
 
 
+## Command to summon random ammo from KIA bots
+
+sammo [x] (Enable/Disable summon random ammo)
+
+Where [x] could be 1 or 0
+
+The SAMMO command comes from the words Summon and Ammo. This command has been designed so that players can play the game without using the cheat paramsammo 1 that gives infinite ammunition. The sammo command spawns ammo near where the bot's weapon lands so the player can pick up that ammo and complete the map without using cheats.
+when using the samo command, all players have the m4a1mod weapon, additionally this command disables the use of cheats on the server
+
+
 ## Command to choose the level of "AI Difficulty" in coop maps
 
 aiskill [x] (Set the level of AI DIFFICULTY)
@@ -251,6 +261,7 @@ Note:These commands cannot be used by the TADMIN only can be used by an Admin or
 	setini s_cheats [x] (server start with cheats cmd enabled in Tadmin)
 	setini default_map [x] (enables or disables the server to switch to a default map when the server is empty in Tadmin)
 	setini prammo [x] (enable or disable the prammo cmd in Tadmin)
+	setini sammo [x] (enable or disable the sammo cmd in Tadmin)
 	setini warnidle [x] (enable or disable idle warnings in Tadmin)
 	
 
