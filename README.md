@@ -88,9 +88,14 @@ Once you have the files ready, upload them to the system folder of your server.
 
 ## Help command
 
-displays the list of all available commands that a player can use. To use this command open the command console and type:
+displays the first list of commands that a player can use. To use this command open the command console and type:
 
 	mutate help
+ ## Help2 command
+
+displays the second list of commands that a player can use. To use this command open the command console and type:
+
+	mutate help2
 
 ## Commands to be and stop being TADMIN
 
@@ -182,13 +187,27 @@ Where [x] could be 1 or 0
 
 
 
-## Commands to enable and disable respawn
+## Command to enable and disable respawn
 
-	respawnon (Command to enable respawn )
-	respawnoff (Command to disable respawn)
-	endgame (Command to terminate the match)
+	respawn [x] (Command to enable/disable respawn)
 
-**Note:** the Tadmin must use the **endgame** command to allow players who joined late to a game to join the game. This is necessary when the respawn is activated in the game. The TADMIN mod will automatically send a message every 20 seconds to the player who has the role of TADMIN to use the command "endgame" when it detects that there are players as spectators waiting to join the game. In coop games it is necessary that there are at least 2 players connected for the respawn to work.Admin or PlayerAdmin. These commands are used so that an Admin or PlayerAdmin disables the player who has the role of TADMIN if he is abusingofhis role. Orif the administrators want to take control of the match.
+Where [x]  could be 1 to enable and 0 to disable
+	
+
+**Note:** In coop games it is necessary that there are at least 2 players connected for the respawn to work.
+
+## Command to enable and disable respawn once
+
+	ronce [x] (Command to enable/disable respawn once)
+
+Where [x]  could be 1 to enable and 0 to disable
+
+## Command to set the respawn time limit
+
+	rtime [x] (Command to set the respawn time limit in minutes)
+
+Where [x]  could be 0 to 5 (0 disable the respawn time limit)
+	
 
 ## Command to get random ammo,grenades and medpacks when pick up an enemy weapon
 
@@ -263,9 +282,13 @@ Note:These commands cannot be used by the TADMIN only can be used by an Admin or
 	setini prammo [x] (enable or disable the prammo cmd in Tadmin)
 	setini sammo [x] (enable or disable the sammo cmd in Tadmin)
 	setini warnidle [x] (enable or disable idle warnings in Tadmin)
-	
-
+ 	setini s_respawn [x] (server start with respawn cmd enabled in Tadmin)
+  	setini ronce [x] (enable or disable respawn once in Tadmin)
+   	
 	Where [x] could be 1 or 0, 1 is to enable 0 to disable
+
+ 	setini rtime [x] (set the respawn time limit in minutes, [x] could be 0 to 5)
+  
 
 	setini setmap [x]  (set the default map of the server in Tadmin)
 	
