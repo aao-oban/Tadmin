@@ -35,7 +35,7 @@ An Admin or PlayerAdmin can use all the TADMIN commands without needing to have 
 
 ## How to install Tadmin on your server?
 
-- **STEP 1** Get a copy of the Tadmin v2.0.3 [Here](https://github.com/aao-oban/Tadmin/blob/main/Tadmin%202.0.3.zip)
+- **STEP 1** Get a copy of the Tadmin v2.0.6 [Here](https://github.com/aao-oban/Tadmin/blob/main/Tadmin%202.0.6.zip)
 - **STEP 2** unzip the file to extract its content
 - **STEP 3** Copy the files Tadmin.u, Tadmin.ini to the system folder of your server
 - **STEP 4** Stop your server and start it adding the parameter ?Mutator=Tadmin.Tadmin as shown in the following example
@@ -207,6 +207,18 @@ Where [x]  could be 1 to enable and 0 to disable
 	rtime [x] (Command to set the respawn time limit in minutes)
 
 Where [x]  could be 0 to 5 (0 disable the respawn time limit)
+
+## Command to set the respawn protection
+
+	rprot [x] (Command to enable/disable respawn protection)
+
+Where [x]  could be 1 to enable and 0 to disable
+
+## Command to set Allow Late Join
+
+	allowlj [x] (Command to enable/disable Allow Late Join)
+
+Where [x]  could be 1 to enable and 0 to disable
 	
 
 ## Command to get random ammo,grenades and medpacks when pick up an enemy weapon
